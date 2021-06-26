@@ -1,0 +1,32 @@
+{
+  "name": "trabajofinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfernadez/TrabajoFinal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfernadez/TrabajoFinal/issues"
+  },
+  "homepage": "https://github.com/rfernadez/TrabajoFinal#readme",
+  "devDependencies": {
+    "@wdio/cli": "^7.7.4",
+    "@wdio/devtools-service": "^7.7.4",
+    "@wdio/local-runner": "^7.7.4",
+    "@wdio/mocha-framework": "^7.7.4",
+    "@wdio/selenium-standalone-service": "^7.7.4",
+    "@wdio/spec-reporter": "^7.7.3",
+    "wdio-intercept-service": "^4.1.6"
+  },
+  "dependencies": {
+    "chromedriver": "^91.0.1",
+    "dot": "^1.1.3"
+  }
+}
