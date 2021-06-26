@@ -30,5 +30,5 @@ describe('Resultados de las busquedas', () => {
         await ResultsPage.clicklista;
         expect(ResultsPage.validacion).not.toBeDisplayed()
     });
-
+        
 });
